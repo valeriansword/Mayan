@@ -14,7 +14,7 @@ function SeparateProducts() {
         {
             products.map((prod,index)=>(
                 <div key={index} className=''>
-                 <h1 className='text-3xl text-center text-[#3a5a40] font-unbounded my-[20px]'>{prod.text}</h1>
+                 <h1 className='text-3xl text-center text-[#3a5a40] font-unbounded py-[20px]'>{prod.text}</h1>
                  <div className='grid grid-cols-3 gap-[20px] mx-[20px] justify-items-center max-sm:grid-cols-1'>
                  { prod.Separateproducts.map((sep)=>(
                      <div key={sep.id} className=' w-[350px] max-sm:w-[300px] text-[#dad7cd] bg-[#3a5a40] rounded-md p-2'>

@@ -22,7 +22,7 @@ function AnimatedRoutes() {
       {/* Transition component triggers before route change */}
       <Transition />
       <Routes location={location} key={location.pathname}>
-        <Route path="/Mayan/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Products" element={<Products />} />
