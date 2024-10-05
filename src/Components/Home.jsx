@@ -6,7 +6,7 @@ import axios from "axios";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import { prods } from '../Constants/Data';
 
 import { Link } from "react-router-dom";
 import Contact from './Contact';
@@ -134,7 +134,7 @@ function Home() {
     <div className='bg-gradient-to-b from-[#ffffff] to-[#dad7cd]'>
       {/* hero section */}
     <div className=' pb-[20px] text-[#3a5a40] pt-[20px]'>
-      <h1 className='text-4xl sm:text-6xl lg:text-7xl font-unbounded font-bold text-center tracking-wide '>Great Voyages Begins Here</h1>
+      <h1 className='text-3xl sm:text-6xl lg:text-6xl font-unbounded font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10'>Great Voyages Begins Here</h1>
       {/* video tag */}
        <div className="flex mt-10 justify-center">
        
@@ -149,11 +149,11 @@ function Home() {
         </video>
         
       </div>  
-      <h1 className='text-lg font-bold font-unbounded text-center mt-[30px]'>Got any questions or ready to embark </h1>
+      <h1 className='text-lg font-bold font-unbounded text-center mt-10 '>Got any questions or ready to embark </h1>
        <h1 className='text-lg font-bold font-unbounded text-center'> on your voyage with us?</h1>
         <h1 className="text-lg font-bold font-unbounded text-center">Drop us a message!</h1>
         <span className='flex justify-center'>
-        <button onClick={scrollToFooter} className='ring-2 ring-[#3a5a40] max-sm:w-[90%] text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Get started</button>
+        <button onClick={scrollToFooter} className='ring-2 ring-[#3a5a40] max-sm:w-[90%] text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md mt-[10px]'>Get started</button>
         </span>
        
     </div>
@@ -177,16 +177,16 @@ function Home() {
       </Slider>
     </div>
       <div className=' flex flex-col justify-center ml-[10px] space-y-[5px]'>
-        <h1 className='text-3xl text-[#3a5a40] font-bold max-sm:text-center'>Services</h1>
+        <h1 className='text-3xl font-bold max-sm:text-center bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10'>Services</h1>
         <p className='text-lg font-normal text-[#3a5a40] max-sm:text-center'>Navigate your global trade with us</p>
-        <Link to="/Services"><button className='ring-2 ring-[#3a5a40] max-sm:w-full text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Know More</button></Link>
+        <Link to="/Mayan/Services"><button className='ring-2 ring-[#3a5a40] max-sm:w-full text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Know More</button></Link>
       </div>
       
     </div>
     {/* products */}
     <div className='w-full flex max-sm:flex-col-reverse justify-around px-[20px]'>
     <div className=' flex flex-col justify-center ml-[10px] space-y-[5px]'>
-        <h1 className='text-3xl text-[#3a5a40] font-bold max-sm:text-center'>Products</h1>
+        <h1 className='text-3xl bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 font-bold max-sm:text-center'>Products</h1>
         <p className='text-lg font-normal text-[#3a5a40] max-sm:text-center'>From Our Inventory To Your Market.</p>
         <Link to="/Products/"><button className='ring-2 ring-[#3a5a40] max-sm:w-full text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Know More</button></Link>
       </div>
@@ -194,7 +194,7 @@ function Home() {
     <div className="w-1/2 max-w-4xl  py-8 max-sm:w-full">
       
       <Slider {...settings}>
-        {productsData.map((service, index) => (
+        {prods.map((service, index) => (
           <div key={index} className="relative rounded-md">
             <img
               src={service.img}
@@ -215,7 +215,7 @@ function Home() {
     
     {/* conatct */}
     <section id="contact" ref={footerRef}>
-    <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center font-unbounded mt-6 text-[#3a5a40]">
+    <h2 className="text-3xl sm:text-5xl lg:text-6xl max-sm:mt-[30px] text-center font-unbounded mt-6 bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10">
         INQUIRE NOW
       </h2>
     <Contact /></section>

@@ -5,8 +5,8 @@ const Footer = () => {
     <div className="text-[#3a5a40] bg-gradient-to-b from-[#ffffff] to-[#dad7cd] text-lg font-semibold py-[80px] max-sm:py-[50px]">
         <footer className=" flex justify-around ">
             <div>
-                <Link to="/"><h1>Home</h1></Link>
-                <Link to="/About"><h1>About</h1></Link>
+                <Link to="/Mayan"><h1>Home</h1></Link>
+                <Link to="/Mayan/About"><h1>About</h1></Link>
                 <h1>Contact</h1>
                 <div className="mt-[50px] max-sm:hidden">
                     <h1>© mayanexim 2024</h1>
@@ -14,8 +14,8 @@ const Footer = () => {
             </div>
             <div>
                 <h1>Legal</h1>
-                <Link to="/Services"><h1>Services</h1></Link>
-                <Link to="/Products"><h1>Products</h1></Link>
+                <Link to="/Mayan/Services"><h1>Services</h1></Link>
+                <Link to="/Mayan/Products"><h1>Products</h1></Link>
             </div>
             
             <div>

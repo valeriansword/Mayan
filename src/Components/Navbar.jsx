@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useRef, useState } from "react";
-import logo from "../assets/logo1.png";
+import logo from "/logo1.png";
 import { navItems } from "../Constants/Data";
 import { Link } from "react-router-dom";
 
@@ -25,7 +25,7 @@ const Navbar = () => {
               GSTIN:33CFCPV1527C1ZT
             </h1>
             <span className="flex items-center lg:ml-[-30px]">
-              <Link to="/" className="flex items-center hover:scale-110 inline-block">
+              <Link to="/Mayan" className="flex items-center hover:scale-110 inline-block">
                 <img
                   className="h-20 w-25  translate-y-1 translate-x-4 max-sm:ml-[-30px] drop-shadow-lg"
                   src={logo}
@@ -45,7 +45,7 @@ const Navbar = () => {
             <span className="max-sm:hidden">
               <a
                 href="/logo1.png"
-                download="pdf"
+                download
                 className="py-2 px-5 text-center w-[140px] rounded-md bg-[#3a5a40] ring-2 ring-[#3a5a40] text-[#dad7cd] hover:bg-[#a1b189] hover:text-white neon-button transition duration-300 transform hover:scale-110 shadow-lg"
               >
                 Get a Quote
@@ -58,7 +58,7 @@ const Navbar = () => {
           {/* nav items */}
           <ul className="max-md:hidden flex justify-center mx-auto w-full items-center space-x-[80px]">
             {navItems.map((item, index) => (
-              <Link to={`/${item.label === "Home" ? "" : item.label}`} key={index}>
+              <Link to={`/Mayan/${item.label === "Home" ? "" : item.label}`} key={index}>
                 <li>
                   <a
                     href={item.href}
@@ -85,7 +85,7 @@ const Navbar = () => {
           <div className="fixed right-0 z-20 bg-[#3a5a40] text-[#dad7cd] w-full p-12 flex flex-col justify-center items-center lg:hidden transition-all duration-500 ease-in-out backdrop-blur-lg">
             <ul>
               {navItems.map((item, index) => (
-                <Link to={`/${item.label === "Home" ? "" : item.label}`} key={index}>
+                <Link to={`/Mayan/${item.label === "Home" ? "" : item.label}`} key={index}>
                   <li className="py-4 text-xl hover:bg-[#a1b189] px-6 rounded-md transition-all duration-500 ease-in-out">
                     {item.label}
                   </li>

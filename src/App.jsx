@@ -13,6 +13,7 @@ import Certificates from './Components/Certificates';
 import SeparateProducts from './Components/SeparateProducts';
 import Contact from './Components/Contact';
 import Transition from './Components/Transition';
+import ScrollToTop from './Components/ScrollToTop';
 
 function AnimatedRoutes() {
   const location = useLocation(); // This tracks the route changes
@@ -22,15 +23,15 @@ function AnimatedRoutes() {
       {/* Transition component triggers before route change */}
       <Transition />
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Services" element={<Services />} />
-        <Route path="/Products" element={<Products />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/Gallery" element={<Gallery />} />
-        <Route path="/Certificate" element={<Certificates />} />
-        <Route path="/Products/:id" element={<SeparateProducts />} />
-        <Route path="/contacts" element={<Contact />} />
+        <Route path="/Mayan" element={<Home />} />
+        <Route path="/Mayan/About" element={<About />} />
+        <Route path="/Mayan/Services" element={<Services />} />
+        <Route path="/Mayan/Products" element={<Products />} />
+        <Route path="/Mayan/admin" element={<Admin />} />
+        <Route path="/Mayan/Gallery" element={<Gallery />} />
+        <Route path="/Mayan/Certificate" element={<Certificates />} />
+        <Route path="/Mayan/Products/:id" element={<SeparateProducts />} />
+        <Route path="/Mayan/contacts" element={<Contact />} />
       </Routes>
       {/* Optional: Add Transition here if you want an effect on page exit */}
       <Transition />
@@ -42,6 +43,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <ScrollToTop />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

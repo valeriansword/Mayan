@@ -66,7 +66,7 @@ const handlePhoneChange = (e) => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto pt-10 px-6">
+    <div className="max-w-7xl mx-auto pt-10 max-sm:pt-4 px-6">
     <div id="contact" className="  container mx-auto sm:px-8 lg:px-16  text-[#3a5a40] mt-[10px]">
       {/* <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
         Get in{" "}        
