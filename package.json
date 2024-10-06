@@ -5,14 +5,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.1.0",
     "@lucide/lab": "^0.1.2",
     "axios": "^1.7.7",
     "framer-motion": "^11.9.0",

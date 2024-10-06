@@ -13,7 +13,14 @@ import logistics from "../assets/logistics.jpg"
 import airShipping from "../assets/air1.jpg"
 import exportImport from "../assets/export.jpg"
 
-import medic from "../assets/medic.jpeg";
+import sunflower from "../assets/sunflower.jpg";
+import onion1 from "../assets/onion1.jpg";
+import onion2 from "../assets/onion2.jpg";
+import potato from "../assets/potato.jpg";
+import coconutshell from "../assets/cocoshell.jpeg";
+import nut from "../assets/nut.jpg";
+import aeroplane from "../assets/aeroplane.jpg";
+import sesame from "../assets/sesame.jpg";
 
 import blackPepper from "../assets/black pepper .jpg"
 import cardamom from "../assets/cardamom.jpg";
@@ -62,7 +69,7 @@ export const servicesData = [
   },
   {
     icon: <Plane />,
-    img: airShipping,
+    img: aeroplane,
     text: "Air Delivery",
     
     description:
@@ -104,7 +111,7 @@ export const prods = [
     img: spices,
     text: "Spices",
     description:
-      "Secure and organized storage solutions to keep your inventory safe and accessible, tailored to meet your specific needs.",
+      "Indian spices like cumin, turmeric, and cardamom are known for their bold flavors and aromas. They enhance dishes and offer health benefits, making them essential in Indian cooking.",
       Separateproducts:[
         {
           "id": 1,
@@ -172,40 +179,92 @@ export const prods = [
 
   },
   { id:2,
-    icon: <Icon iconNode={coconut} />,
-    img: coco,
-    text: "Coconuts",
-    
-    description:
-      "Fast and reliable air freight services for timely deliveries across the globe, ensuring your shipments arrive on schedule.",
-  },
-  { id:3,
-    icon:<CirclePlus strokeWidth={3} />,
-    img: pharma,
-    text: "Pharmateucal Products",
-    description:
-      "Cost-effective and efficient sea freight solutions for bulk shipments, providing global reach with dependable transit times."
-  },
-  { id:4,
     icon:<LeafyGreen />,
     img: veggies,
     text: "Vegetables",
     description:
-      "Flexible and reliable ground transportation options for domestic and regional deliveries, optimizing your supply chain."
+      "Fresh vegetables like okra, brinjal, and leafy greens are staples in Indian cooking. They are rich in nutrients and used in various dishes like curries and stir-fries.",
+      Separateproducts:[
+        {
+          "id": 1,
+          "name": "Small Onion",
+          "image": onion1,
+          "description": "Small onions, also known as shallots, have a mild, sweet flavor. They are often used in South Indian dishes, sambar, and pickles."
+        },
+        {
+          "id": 2,
+          "name": "Big Onion",
+          "image": onion2,
+          "description": "Big onions are a staple in cooking, adding a strong, pungent flavor. They are commonly used in gravies, curries, and salads."
+        },
+        {
+          "id": 3,
+          "name": "Potato",
+          "image": potato,
+          "description": "Potatoes are versatile vegetables used in a variety of dishes, from curries to fries. They are rich in carbohydrates and fiber."
+        }
+      ]
+      
   },
-  { id:5,
-    icon:<HandCoins />,
-    img: pooja,
-    text:"Pooja Products",
-    description:
-    "Expert handling of export and import processes, ensuring smooth and compliant international trade operations."
-  },
-  { id:6,
+  { id:3,
     icon:<Bean />,
     img: seeds,
     text: "Oil Seeds",
     description:
-      "Streamlined local logistics services to manage and distribute goods efficiently within your region, enhancing operational efficiency."
-  },]
+      "Oil seeds like sesame and mustard are used for extracting oils in cooking. They add flavor and nutrition to dishes and are an essential part of Indian cuisine.",
+      Separateproducts:[
+        
+          {
+            "id": 1,
+            "name": "Sunflower Oil",
+            "image": sunflower,
+            "description": "Sunflower oil is a light, healthy oil rich in Vitamin E and commonly used for frying and cooking. It has a mild flavor that doesn't overpower dishes."
+          },
+          {
+            "id": 2,
+            "name": "Coconut Oil",
+            "image": coconutshell,
+            "description": "Coconut oil is widely used in cooking and for skin care. It has a rich flavor and high smoke point, making it ideal for frying and baking."
+          },
+          {
+            "id": 3,
+            "name": "Sesame Oil",
+            "image": sesame,
+            "description": "Sesame oil has a distinct nutty flavor and is rich in antioxidants. It is commonly used in Indian, Chinese, and Southeast Asian cuisines."
+          },
+          {
+            "id": 4,
+            "name": "Groundnut Oil",
+            "image": nut,
+            "description": "Groundnut oil, also known as peanut oil, is a versatile oil with a mild flavor. It’s great for deep frying and cooking, offering a high smoke point."
+          }
+        
+        
+      ]
+  },
+  { id:4,
+    icon: <Icon iconNode={coconut} />,
+    img: coco,
+    text: "Coconut (Raw,Powder)",
+    
+    description:
+      "Coconut, whether fresh or powdered, is widely used in Indian cooking for its rich flavor and texture. Fresh coconut is grated or sliced, while coconut powder is used in curries, desserts, and baking for convenience.",
+  },
+  { id:5,
+    icon:<CirclePlus strokeWidth={3} />,
+    img: pharma,
+    text: "Pharmateucal Products",
+    description:
+      "Pharmacy products include medications, health supplements, and personal care items that support general health, address specific ailments, and promote wellness."
+  },
+ 
+  { id:6,
+    icon:<HandCoins />,
+    img: pooja,
+    text:"Pooja Products",
+    description:
+    "Pooja products, such as incense, ghee, and flowers, are used in Hindu rituals to create a spiritual atmosphere during prayers and religious ceremonies."
+  },
+  ]
 
 

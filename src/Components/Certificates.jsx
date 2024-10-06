@@ -11,7 +11,7 @@ import certificate6 from "../assets/certificate-6.jpg";
 import certificate7 from "../assets/certificate-7.jpg";
 import certificate8 from "../assets/certificate-8.jpg";
 import SelectedCertificate from './SelectedCertificate';
-
+import "./Certificate.css"
 const Certificates = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -61,9 +61,9 @@ const Certificates = () => {
   };
 
   return (
-    <div className='bg-gradient-to-b from-[#dad7cd] to-[#3a5a40] py-10'>
+    <div className='bg-gradient-to-b from-[#ffffff] to-[#dad7cd] py-10 border-b border-gray-400'>
       <div className="container mx-auto px-5">
-        <h2 className="text-5xl font-bold text-center mb-12 text-[#3a5a40] tracking-widest">Certificates</h2>
+        <h2 className="text-3xl lg:text-6xl font-bold text-center mb-12 text-[#3a5a40]  font-unbounded">Certificates</h2>
 
         {/* Auto-scrolling certificates carousel */}
         <div className="w-full flex justify-center">

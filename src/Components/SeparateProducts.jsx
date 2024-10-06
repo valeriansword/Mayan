@@ -10,7 +10,7 @@ function SeparateProducts() {
     ))
     console.log(products[0].Separateproducts[0]);
   return (
-    <div className='mb-[20px] bg-gradient-to-b from-[#dad7cd] to-[#ffffff]'>
+    <div className='pb-[20px] bg-gradient-to-b from-[#ffffff] to-[#dad7cd] border-b border-gray-400'>
         {
             products.map((prod,index)=>(
                 <div key={index} className=''>

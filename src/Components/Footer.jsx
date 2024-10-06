@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="text-[#3a5a40] bg-gradient-to-b from-[#ffffff] to-[#dad7cd] text-lg font-semibold py-[80px] max-sm:py-[50px]">
+    <div className="text-[#3a5a40] bg-gradient-to-b from-[#dad7cd] to-[#ffffff] text-lg font-semibold py-[80px] max-sm:py-[50px]">
         <footer className=" flex justify-around ">
             <div>
                 <Link to="/Mayan"><h1>Home</h1></Link>

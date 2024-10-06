@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import Home from './Components/Home';
+import '@fontsource/inter'; // Defaults to weight 400
+
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import About from './Components/About';

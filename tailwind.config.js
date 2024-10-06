@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         unbounded: ['Unbounded', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
     },
   },
