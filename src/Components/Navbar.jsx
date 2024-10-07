@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useRef, useState } from "react";
 import logo from "/logo1.png";
+import get from "/get.pdf";
 import { navItems } from "../Constants/Data";
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
@@ -58,7 +59,7 @@ const Navbar = () => {
 
             <span className="max-sm:hidden">
               <a
-                href="/logo1.png"
+                href={get}
                 download
                 className="py-2 px-5 text-center w-[140px] rounded-[30px] bg-[#3a5a40]  text-[#dad7cd]  transition:scale duration-300 transform hover:scale-105 shadow-lg"
               >

@@ -6,6 +6,9 @@ import { Ship } from "lucide-react";
 import {  Plane } from "lucide-react";
 import { TrendingUp } from "lucide-react";
 
+import medic from "../assets/medic.webp";
+import poojP from "../assets/poojaP.jpeg";
+import spicesIndian from "../assets/spicesIndian.webp"
 import warehouse from "../assets/warehouse.jpg";
 import groundShipping from "../assets/GroundShipping.jpg";
 import ship from "../assets/ship.jpg"
@@ -108,7 +111,7 @@ export const servicesData = [
 export const prods = [
   { id:1,
     icon:<PackageOpen />,
-    img: spices,
+    img: spicesIndian,
     text: "Indian Spices",
     description:
       "Indian spices like cumin, turmeric, and cardamom are known for their bold flavors and aromas. They enhance dishes and offer health benefits, making them essential in Indian cooking.",
@@ -252,7 +255,7 @@ export const prods = [
   },
   { id:5,
     icon:<CirclePlus strokeWidth={3} />,
-    img: pharma,
+    img: medic,
     text: "Pharmateucal Products",
     description:
       "Pharmacy products include medications, health supplements, and personal care items that support general health, address specific ailments, and promote wellness."
@@ -260,7 +263,7 @@ export const prods = [
  
   { id:6,
     icon:<HandCoins />,
-    img: pooja,
+    img: poojP,
     text:"Pooja Products",
     description:
     "Pooja products, such as incense, ghee, and flowers, are used in Hindu rituals to create a spiritual atmosphere during prayers and religious ceremonies."
