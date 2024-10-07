@@ -8,9 +8,7 @@ const Footer = () => {
                 <Link to="/Mayan"><h1>Home</h1></Link>
                 <Link to="/Mayan/About"><h1>About</h1></Link>
                 <h1>Contact</h1>
-                <div className="mt-[50px] max-sm:hidden">
-                    <h1>© mayanexim 2024</h1>
-                </div>
+                
             </div>
             <div>
                 <h1>Legal</h1>
@@ -20,16 +18,12 @@ const Footer = () => {
             
             <div>
                 <a href="https://www.linkedin.com/company/mayan-exim-global-transit/" target="new"><h1>Linked In</h1></a>                
-                <a
-        href="https://wa.me/918098787661"
-        target="_blank"
-        rel="noopener noreferrer"
-      ><h1>Whatsapp</h1></a>
+                <a href="https://wa.me/918098787661" target="_blank" rel="noopener noreferrer"><h1>Whatsapp</h1></a>
                 <a href="https://mailto:mayanexim@gmail.com"><h1>E-mail</h1></a>
             </div>
             
         </footer>
-            <h1 className="text-center pt-[30px] md:hidden">© mayanexim 2024</h1>
+            <h1 className=" pt-[30px] text-center">mayan exim global transit ®</h1>
         </div>
       );
 };

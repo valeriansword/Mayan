@@ -201,7 +201,7 @@ const handlePhoneChange = (e) => {
             </div>
             <div>
               <h5 className="mt-1 mb-2 text-xl">Email</h5>
-              <p className="text-md ">mayanexim@gmail.com</p>
+              <p className="text-md text-black ">mayanexim@gmail.com</p>
             </div>
           </div>
           <div className="flex mb-6">
@@ -209,8 +209,8 @@ const handlePhoneChange = (e) => {
               <Phone />
             </div>
             <div className="w-full">
-              <h5 className="mt-1 mb-2 text-xl">Phone</h5>
-              <p className="text-md w-[200px]">+91 7200590064</p>
+              <h5 className="mt-1 mb-2 text-xl ">Phone</h5>
+              <p className="text-md w-[200px] text-black">+91 7200590064</p>
             </div>
           </div>
         </div>
