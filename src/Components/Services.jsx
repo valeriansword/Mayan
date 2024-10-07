@@ -9,9 +9,9 @@ const Services = () => {
           Services
         </span>
         <span className="lg:flex lg:justify-center lg:space-x-2"> 
-        <h2 className="text-3xl max-sm:text-2xl lg:text-3xl font-inter text-black font-thin tracking-wide">
+        <h2 className="text-3xl max-sm:text-2xl lg:text-3xl  text-black font-thin tracking-wide">
           Navigate your global trade      </h2>
-          <h1 className="text-3xl max-sm:text-2xl lg:text-3xl font-inter text-[#3a5a40] font-thin tracking-wide">with us</h1>
+          <h1 className="text-3xl max-sm:text-2xl lg:text-3xl  text-[#3a5a40] font-thin tracking-wide">with us</h1>
        </span>
           </div>
 
@@ -33,7 +33,7 @@ const Services = () => {
                   {/* Placeholder for uct icon */}
                   {service.icon}
                 </span>
-                <h1 className=" text-xl font-bold bg-clip-text hover:text-[#dad7cd] text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 ">{service.text}</h1>
+                <h1 className=" text-xl font-bold bg-clip-text  text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 ">{service.text}</h1>
               </div>
 
               {/* Product description */}

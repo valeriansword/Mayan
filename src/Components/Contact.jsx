@@ -3,9 +3,9 @@ import { Mail, Phone } from "lucide-react";
 
 // Predefined list of countries
 const countries = [
-  "United States", "Canada", "United Kingdom", "Germany", "France", "India", "China",
-  "Japan", "Australia", "Brazil", "Mexico", "South Africa", "Russia", "Italy", "Spain",
-  "Other" // "Other" triggers the additional input field
+ "Australia", "Canada", "China", "Dubai", "Germany", "India", "Malaysia", "Singapore", "Sri Lanka",
+  "United Kingdo(UK)", "United States of America(USA)", "Other"
+   // "Other" triggers the additional input field
 ];
 
 const Contact = () => {
@@ -201,16 +201,16 @@ const handlePhoneChange = (e) => {
             </div>
             <div>
               <h5 className="mt-1 mb-2 text-xl">Email</h5>
-              <p className="text-md ">example@email.com</p>
+              <p className="text-md ">mayanexim@gmail.com</p>
             </div>
           </div>
           <div className="flex mb-6">
             <div className="text-[#dad7cd] mx-6 bg-[#3a5a40] h-10 w-10 p-2 justify-center items-center rounded-full">
               <Phone />
             </div>
-            <div>
+            <div className="w-full">
               <h5 className="mt-1 mb-2 text-xl">Phone</h5>
-              <p className="text-md ">+123 456 7890</p>
+              <p className="text-md w-[200px]">+91 7200590064</p>
             </div>
           </div>
         </div>

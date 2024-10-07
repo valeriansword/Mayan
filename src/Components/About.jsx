@@ -12,8 +12,12 @@ function About() {
         </div>
 
         <div className='text-3xl font-bold max-sm:text-2xl flex mt-[30px] space-x-4 font-unbounded px-[40px]' >
-          <p className=' bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] to-black'>Whatsapp</p>
-          <p className=' bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] to-black'>Email</p>
+        <a
+        href="https://wa.me/918098787661"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><p className=' bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] to-black'>Whatsapp</p></a>
+          <a href="mailto:mayanexim@gmail.com" target="new"><p className=' bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] to-black'>Email</p></a>
         </div>
         <h2 className="text-3xl sm:text-5xl lg:text-4xl text-center font-bold font-unbounded mt-10 text-black">
         Lets get to know each other.       

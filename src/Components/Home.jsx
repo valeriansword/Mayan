@@ -75,7 +75,7 @@ function Home() {
     </div>
     {/* services and products section */}
     <div className='w-full flex max-sm:flex-col justify-around px-[20px]'>
-    <div className="w-1/2 max-w-4xl  py-8 max-sm:w-full min-xl:grow-0 ">
+    <div className="w-1/2 max-w-4xl xl:max-w-2xl 2xl:max-w-3xl py-8 max-sm:w-full min-xl:grow-0 ">
       
       <Slider {...settings}>
         {servicesData.map((service, index) => (
@@ -83,7 +83,7 @@ function Home() {
             <img
               src={service.img}
               alt={service.text}
-              className="w-full lg:h-80 object-fill max-sm:h-64"
+              className="w-full h-80 2xl:h-100 object-fill max-sm:h-64"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
               <p className="text-white text-xl font-bold font-unbounded">{service.text}</p>
@@ -104,10 +104,10 @@ function Home() {
     <div className=' flex flex-col justify-center ml-[10px] space-y-[5px]'>
         <h1 className='text-3xl bg-clip-text font-unbounded text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 font-bold max-sm:text-center'>Products</h1>
         <p className='text-lg font-normal text-[#3a5a40] font-inter max-sm:text-center'>From Our Inventory To Your Market.</p>
-        <Link to="/Products/"><button className='ring-2 font-inter ring-[#3a5a40] max-sm:w-full text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Know More</button></Link>
+        <Link to="/Mayan/Products/"><button className='ring-2 font-inter ring-[#3a5a40] max-sm:w-full text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Know More</button></Link>
       </div>
       
-    <div className="w-1/2 max-w-4xl  py-8 max-sm:w-full ">
+    <div className="w-1/2 max-w-4xl xl:max-w-2xl 2xl:max-w-3xl py-8 max-sm:w-full ">
       
       <Slider {...settings}>
         {prods.map((service, index) => (
@@ -115,7 +115,7 @@ function Home() {
             <img
               src={service.img}
               alt={service.text}
-              className="w-full h-80 min-xl:w-[200px] max-sm:h-64 "
+              className="w-full h-80 2xl:h-100 min-xl:w-[200px] max-sm:h-64 "
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
               <p className="text-white text-xl font-bold">{service.text}</p>

@@ -10,9 +10,12 @@ const Products = () => {
         <span className="text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 font-medium px-2 py-1 uppercase">
           Products
         </span>
-        <h2 className="text-2xl sm:text-2xl lg:text-4xl font-inter tracking-wide mt-2">
-          From Our Inventory To Your Market.
+        <span className="lg:flex lg:justify-center lg:space-x-2 font-unbounded">
+        <h2 className="text-2xl sm:text-2xl lg:text-3xl text-black  tracking-wide mt-2">
+          From Our Inventory To
         </h2>
+        <h2 className="text-2xl sm:text-2xl lg:text-3xl  tracking-wide mt-2 text-[#3a5a40]"> Your Market.</h2>
+        </span>
       </div>
 
       {/* Feature blocks section */}
@@ -35,7 +38,7 @@ const Products = () => {
                   {/* Placeholder for product icon */}
                   {prod.icon}
                 </span>
-                <h1 className="bg-clip-text  text-transparent bg-gradient-to-r from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10  text-xl font-bold">{prod.text}</h1>
+                <h1 className="bg-clip-text  text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10  text-xl font-bold">{prod.text}</h1>
               </div>
 
               {/* Product description */}

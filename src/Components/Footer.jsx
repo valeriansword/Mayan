@@ -19,9 +19,13 @@ const Footer = () => {
             </div>
             
             <div>
-                <h1>Linked In</h1>                
-                <h1>Whatsapp</h1>
-                <h1>E-mail</h1>
+                <a href="https://www.linkedin.com/company/mayan-exim-global-transit/" target="new"><h1>Linked In</h1></a>                
+                <a
+        href="https://wa.me/918098787661"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><h1>Whatsapp</h1></a>
+                <a href="https://mailto:mayanexim@gmail.com"><h1>E-mail</h1></a>
             </div>
             
         </footer>

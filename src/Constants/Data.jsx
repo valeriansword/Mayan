@@ -109,7 +109,7 @@ export const prods = [
   { id:1,
     icon:<PackageOpen />,
     img: spices,
-    text: "Spices",
+    text: "Indian Spices",
     description:
       "Indian spices like cumin, turmeric, and cardamom are known for their bold flavors and aromas. They enhance dishes and offer health benefits, making them essential in Indian cooking.",
       Separateproducts:[

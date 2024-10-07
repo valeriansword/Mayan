@@ -45,7 +45,7 @@ const galleryImages = [
   return (
     <div className='bg-gradient-to-b from-[#ffffff] to-[#dad7cd] border-b border-gray-400'>
     <div className="container mx-auto py-10 ">
-      <h2 className="text-4xl lg:text-6xl font-bold text-center mb-10 text-[#3a5a40] font-unbounded">Gallery</h2>
+      <h2 className="text-4xl lg:text-6xl font-bold text-center mb-10 bg-clip-text  text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 font-unbounded">Gallery</h2>
       {}
       <div className="grid grid-cols-12 grid-rows-auto gap-4">
         {galleryImages.map((image, index) => (
