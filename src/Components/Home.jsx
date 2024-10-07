@@ -92,18 +92,18 @@ function Home() {
         ))}
       </Slider>
     </div>
-      <div className=' flex flex-col justify-center ml-[10px] space-y-[5px]'>
+      <div className=' flex flex-col justify-center ml-[10px] space-y-[5px] lg:pl-[20px]'>
         <h1 className='text-3xl font-unbounded font-bold max-sm:text-center bg-clip-text text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10'>Services</h1>
-        <p className='text-lg font-normal text-[#3a5a40] max-sm:text-center font-inter'>Navigate your global trade with us</p>
+        <p className='text-lg font-normal text-[#3a5a40]  font-inter'>Our transit company offers reliable and timely delivery and shipping services, ensuring your goods reach their destination safely. We prioritize quality and efficiency, providing seamless logistics support for a smooth global trade experience.</p>
         <Link to="/Mayan/Services"><button className='ring-2 font-inter ring-[#3a5a40] max-sm:w-full text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Know More</button></Link>
       </div>
       
     </div>
     {/* products */}
     <div className='w-full flex max-sm:flex-col-reverse justify-around px-[20px]'>
-    <div className=' flex flex-col justify-center ml-[10px] space-y-[5px]'>
-        <h1 className='text-3xl bg-clip-text font-unbounded text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 font-bold max-sm:text-center'>Products</h1>
-        <p className='text-lg font-normal text-[#3a5a40] font-inter max-sm:text-center'>From Our Inventory To Your Market.</p>
+    <div className=' flex flex-col justify-center ml-[10px] space-y-[5px] lg:pl-[20px]'>
+        <h1 className='text-3xl  bg-clip-text font-unbounded text-transparent bg-gradient-to-b from-[#3a5a40] via-[#3a5a40] to-black bg-[length:100%_100%] bg-gradient-stops-90-10 font-bold max-sm:text-center'>Products</h1>
+        <p className='text-lg font-normal  text-[#3a5a40] font-inter '>Our transit company offers seamless shipping solutions for a wide range of products, including food items, raw materials, and pharmaceuticals. We ensure safe, timely delivery with a focus on maintaining product quality throughout the journey.</p>
         <Link to="/Mayan/Products/"><button className='ring-2 font-inter ring-[#3a5a40] max-sm:w-full text-[#dad7cd] bg-gradient-to-b from-[#3a5a40] to-black py-[5px] w-[250px] px-2 rounded-md'>Know More</button></Link>
       </div>
       

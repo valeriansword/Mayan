@@ -216,25 +216,25 @@ export const prods = [
         
           {
             "id": 1,
-            "name": "Sunflower Oil",
+            "name": "Sunflower",
             "image": sunflower,
             "description": "Sunflower oil is a light, healthy oil rich in Vitamin E and commonly used for frying and cooking. It has a mild flavor that doesn't overpower dishes."
           },
           {
             "id": 2,
-            "name": "Coconut Oil",
+            "name": "Coconut",
             "image": coconutshell,
             "description": "Coconut oil is widely used in cooking and for skin care. It has a rich flavor and high smoke point, making it ideal for frying and baking."
           },
           {
             "id": 3,
-            "name": "Sesame Oil",
+            "name": "Sesame",
             "image": sesame,
             "description": "Sesame oil has a distinct nutty flavor and is rich in antioxidants. It is commonly used in Indian, Chinese, and Southeast Asian cuisines."
           },
           {
             "id": 4,
-            "name": "Groundnut Oil",
+            "name": "Groundnut",
             "image": nut,
             "description": "Groundnut oil, also known as peanut oil, is a versatile oil with a mild flavor. It’s great for deep frying and cooking, offering a high smoke point."
           }
