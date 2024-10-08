@@ -12,6 +12,7 @@ const Navbar = () => {
 
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
+    
   };
 
   const footerRef = useRef(null);
@@ -57,15 +58,21 @@ const Navbar = () => {
               </div>
             </span>
 
-            <span className="max-sm:hidden">
-              <a
+             <span className="max-sm:hidden">
+              {/* <a
                 href={get}
                 download
                 className="py-2 px-5 text-center w-[140px] rounded-[30px] bg-[#3a5a40]  text-[#dad7cd]  transition:scale duration-300 transform hover:scale-105 shadow-lg"
               >
                 Get a Quote
-              </a>
-            </span>
+              </a> */}
+              <button
+              onClick={scrollToPosition}
+              className="py-2 px-4 w-[120px] rounded-[30px] bg-[#3a5a40]  text-[#dad7cd]  hover:scale-110 hover:shadow-lg transition-all duration-500 "
+            >
+              Contact
+            </button>
+            </span> 
           </div>
 
           <hr className="mb-[10px] max-sm:hidden" />
@@ -85,12 +92,7 @@ const Navbar = () => {
                 </li>
               </Link>
             ))}
-            <button
-              onClick={scrollToPosition}
-              className="py-2 px-4 w-[120px] rounded-md  text-[#3a5a40] hover:bg-[#3a5a40] hover:text-[#dad7cd] hover:scale-105 hover:shadow-lg transition-all duration-500 "
-            >
-              Contact
-            </button>
+            
           </ul>
 
           
@@ -109,15 +111,16 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-6 mt-4">
-              <a
+              {/* <a
                 href="#"
                 className="py-2 px-4 border rounded-md bg-[#dad7cd] text-[#3a5a40] hover:scale-110 hover:shadow-lg transition-transform duration-500"
               >
                 Get a Quote
-              </a>
+              </a> */}
               <p
                 className="py-2 px-4 rounded-md bg-[#dad7cd]  text-[#3a5a40] hover:scale-110 hover:shadow-lg transition-transform duration-500 cursor-pointer"
-                onClick={scrollToFooter}
+                
+                onClick={toggleNavbar}
               >
                 Contact
               </p>
