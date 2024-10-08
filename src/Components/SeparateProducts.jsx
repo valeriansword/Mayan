@@ -19,8 +19,8 @@ function SeparateProducts() {
                  { prod.Separateproducts.map((sep)=>(
                      <div key={sep.id} className=' w-[350px] max-sm:w-[300px] text-[#dad7cd] bg-[#3a5a40] rounded-md p-2'>
                         <img src={sep.image} className='h-[200px] object-cover w-full rounded-md '/>
-                        <h1 className='text-xl font-bold text-center'>{sep.name}</h1>
-                        <p className='text-lg font-thin text-justify'>{sep.description}</p>
+                        <h1 className='text-xl font-bold text-center font-unbounded'>{sep.name}</h1>
+                        <p className='text-lg font-thin text-justify font-inter'>{sep.description}</p>
                      </div>
                  ))}</div>
                  

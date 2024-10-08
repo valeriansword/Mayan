@@ -114,7 +114,7 @@ export const prods = [
     img: spicesIndian,
     text: "Indian Spices",
     description:
-      "Indian spices like cumin, turmeric, and cardamom are known for their bold flavors and aromas. They enhance dishes and offer health benefits, making them essential in Indian cooking.",
+      "We offer premium, farm-fresh Indian spices, known for their rich flavor and quality. Perfect for culinary use and bulk export.",
       Separateproducts:[
         {
           "id": 1,
@@ -186,7 +186,7 @@ export const prods = [
     img: veggies,
     text: "Vegetables",
     description:
-      "Fresh vegetables like okra, brinjal, and leafy greens are staples in Indian cooking. They are rich in nutrients and used in various dishes like curries and stir-fries.",
+      "Supplying fresh, top-grade vegetables like onions and potatoes, sourced directly from trusted farms for consistent and timely delivery.",
       Separateproducts:[
         {
           "id": 1,
@@ -214,7 +214,7 @@ export const prods = [
     img: seeds,
     text: "Oil Seeds",
     description:
-      "Oil seeds like sesame and mustard are used for extracting oils in cooking. They add flavor and nutrition to dishes and are an essential part of Indian cuisine.",
+      "Our high-quality oil seeds are ideal for oil production and industrial use, ensuring purity and reliability.",
       Separateproducts:[
         
           {
@@ -251,14 +251,14 @@ export const prods = [
     text: "Coconut (Raw,Powder)",
     
     description:
-      "Coconut, whether fresh or powdered, is widely used in Indian cooking for its rich flavor and texture. Fresh coconut is grated or sliced, while coconut powder is used in curries, desserts, and baking for convenience.",
+      "We provide both raw coconuts and processed coconut powder, sourced from quality plantations, suitable for food, cosmetic, and industrial applications.",
   },
   { id:5,
     icon:<CirclePlus strokeWidth={3} />,
     img: medic,
     text: "Pharmateucal Products",
     description:
-      "Pharmacy products include medications, health supplements, and personal care items that support general health, address specific ailments, and promote wellness."
+      "Offering a range of pharmaceutical products that meet global health standards, ensuring safety and reliability for medical use."
   },
  
   { id:6,
@@ -266,7 +266,7 @@ export const prods = [
     img: poojP,
     text:"Pooja Products",
     description:
-    "Pooja products, such as incense, ghee, and flowers, are used in Hindu rituals to create a spiritual atmosphere during prayers and religious ceremonies."
+    "Supplying pure and authentic pooja items, perfect for religious ceremonies and spiritual practices."
   },
   ]
 
