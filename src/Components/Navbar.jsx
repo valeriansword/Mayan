@@ -118,7 +118,7 @@ const Navbar = () => {
                 Get a Quote
               </a> */}
               <p
-                className="py-2 px-4 rounded-md bg-[#dad7cd]  text-[#3a5a40] hover:scale-110 hover:shadow-lg transition-transform duration-500 cursor-pointer"
+                className="py-2 px-4 rounded-md bg-[#dad7cd] text-[#3a5a40] hover:scale-110 hover:shadow-lg transition-transform duration-500 cursor-pointer"
                 
                 onClick={toggleNavbar}
               >

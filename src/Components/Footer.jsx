@@ -15,7 +15,7 @@ const Footer = () => {
                 
             </div>
             <div>
-                <h1>Legal</h1>
+                <Link to="/Mayan/Certificate"><h1>certificate</h1></Link>
                 <Link to="/Mayan/Services"><h1>Services</h1></Link>
                 <Link to="/Mayan/Products"><h1>Products</h1></Link>
             </div>
